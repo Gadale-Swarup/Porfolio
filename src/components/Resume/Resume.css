@@ -1,0 +1,43 @@
+.resume-wrapper {
+    background-color: #f8f9fa;
+    padding: 30px 15px; /* Reduced padding */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
+  .resume-section {
+    padding: 20px;
+    max-width: 100%; /* Ensure the container doesn't exceed viewport width */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
+  .download-btn {
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .resume {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; /* Allow scrolling for content if necessary */
+    max-width: 100%; /* Restrict the resume section to the viewport width */
+  }
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+  }
+  
+  .loading .react-pdf__Document {
+    display: none;
+  }
+  
