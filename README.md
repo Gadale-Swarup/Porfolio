@@ -1,6 +1,6 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://swarup-portfolio.onrender.com" target="_blank">swarup-portfolio.onrender.com</a>
+  Portfolio Website<br/>
+  <a href="https://swarup-portfolio.onrender.com" target="_blank">swarup-portfolio</a>
 </h2>
 
 <div align="center">
@@ -13,8 +13,6 @@
   <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love"></a>
   <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="Made with JavaScript"></a>
   <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source"></a>
-  <img src="https://img.shields.io/github/stars/Gadale-Swarup/Portfolio?color=red&logo=github&style=for-the-badge" alt="GitHub Repo stars">
-  <img src="https://img.shields.io/github/forks/Gadale-Swarup/Portfolio?color=red&logo=github&style=for-the-badge" alt="GitHub forks">
 </p>
 
 ## TL;DR
