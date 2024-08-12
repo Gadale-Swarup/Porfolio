@@ -12,7 +12,6 @@
 <p align="center">
   <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love"></a>
   <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="Made with JavaScript"></a>
-  <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source"></a>
 </p>
 
 ## TL;DR
