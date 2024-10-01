@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Dashborad from "../../Assets/Projects/Dashboard.png";
 import Book from "../../Assets/Projects/Book.png";
 import Wedding from "../../Assets/Projects/weddinginvite.png";
+import QRCode from "../../Assets/Projects/QRCode.png";
 
 function Projects() {
   return (
@@ -18,6 +19,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={QRCode}
+              isBlog={false}
+              title="QR Code Generator using React"
+              description="The website QR Code Generator allows users to create custom QR codes easily. With a sleek, user-friendly interface, users can input text or URLs, and the application instantly generates a corresponding QR code.And  The generated QR codes are displayed visually on the page and can be downloaded as image files. This web application is built using React.js and offers a simple yet efficient way for users to generate and download QR codes for various uses, such as sharing links, text, or other data in an encoded format."
+              ghLink="https://github.com/Gadale-Swarup/Wedding-Invite"
+              demoLink="https://qr-code-gen-react-js.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Wedding}
@@ -47,7 +58,7 @@ function Projects() {
               title="Book-Review"
               description="This is fully created using Reactjs.In this uses a React-Router-Dom and show books and there reviews from the user."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://book-review-reactjs.netlify.app/"              
+              demoLink="https://book-review-reactjs.netlify.app/"
             />
           </Col>
         </Row>
